@@ -63,6 +63,7 @@ def main():
             # Plot the line chart with historical data and prediction
             st.write(f"**Historical Data with One-Month Prediction for {stock_symbol} ({symbol})**")
             st.line_chart(full_df)
+    st.write("Developed with love by Suleiman Zeila")
 
 if __name__ == "__main__":
     main()
